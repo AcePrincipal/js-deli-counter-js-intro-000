@@ -14,5 +14,14 @@ function currentLine(arr) {
     return "The line is currently empty.";
   } else if(arr.length === 1){
     return `The line is currently: ${1}. ${arr[0]}.`
+  } else {
+    var line = `The line is currently: ${1}. ${arr[0]}, `;
+    for(var i = 1; i < arr.length; i++) {
+      if(i === arr.length - 1){
+        line = line + `${i+1}. ${arr[i]}`;
+      } else {
+        line = line + `${i+1}. ${arr[i]},`
+      }
+    }
   }
 }
