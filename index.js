@@ -23,5 +23,7 @@ function currentLine(arr) {
         line = line + `${i+1}. ${arr[i]},`
       }
     }
+
+    return line;
   }
 }
