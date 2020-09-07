@@ -20,7 +20,7 @@ function currentLine(arr) {
       if(i === arr.length - 1){
         line = line + `${i+1}. ${arr[i]}`;
       } else {
-        line = line + `${i+1}. ${arr[i]},`
+        line = line + `${i+1}. ${arr[i]}, `
       }
     }
 
