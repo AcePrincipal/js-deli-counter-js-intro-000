@@ -13,6 +13,6 @@ function currentLine(arr) {
   if(arr.length === 0) {
     return "The line is currently empty.";
   } else if(arr.length === 1){
-    return `The line is currently: ${i}. ${arr[i]}`
+    return `The line is currently: ${1}. ${arr[0]}.`
   }
 }
